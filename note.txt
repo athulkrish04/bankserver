@@ -1,0 +1,47 @@
+server creation - using express
+----------------
+   
+   install express
+         -npm i express
+  
+1. import express
+
+2. create an app using express
+
+3. create a code number   (3000)
+
+4. create requests according to our projects
+
+
+
+nodemon server
+--------------
+-npm i -g nodemon
+
+
+user authentication using express
+-----------------------------------
+JWT(json web token) token
+------------------------
+jsonwebtoken - library
+sign()       - method used for generate token
+verify()     - method to verify jwt tokens
+
+middlewares
+------------
+-middlewares have the capacity to control server requests
+-its a fuction with 3 arguments  (request,respose,next)
+
+there are 2 types of middlewares
+  -application specific middlewares
+  -router specific middlewares
+
+Solving Run-time errors in js
+-----------------------------
+try catch
+try{
+  error causing code
+}
+catch{
+  solution
+}
